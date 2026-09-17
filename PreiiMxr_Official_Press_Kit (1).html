@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pre$iiMxr — Official Press Kit</title>
+<meta name="description" content="Official press kit for Pre$iiMxr — independent artist, producer and creative. Experimental trap, dark atmosphere, psychedelic sound and cinematic world-building.">
+<meta name="theme-color" content="#050505">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:#050505;color:#f5f5f5;font-family:Inter,Arial,sans-serif;
+  line-height:1.55;overflow-x:hidden;
+}
+body:before{
+  content:"";position:fixed;inset:0;pointer-events:none;opacity:.08;z-index:10;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.45'/%3E%3C/svg%3E");
+}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1120px,92%);margin:auto}
+nav{
+  position:fixed;top:0;left:0;width:100%;z-index:20;
+  display:flex;justify-content:space-between;align-items:center;padding:24px 4%;
+  background:linear-gradient(#050505dd,transparent);backdrop-filter:blur(5px);
+}
+.logo{font-weight:900;letter-spacing:-1px;font-size:20px}
+.logo span{font-size:11px;letter-spacing:3px;opacity:.55;margin-left:8px}
+.navlinks{display:flex;gap:28px;font-size:12px;text-transform:uppercase;letter-spacing:1.5px}
+.navlinks a{opacity:.65}.navlinks a:hover{opacity:1}
+.hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden}
+.hero:after{
+  content:"";position:absolute;width:680px;height:680px;border:1px solid #ffffff16;border-radius:50%;
+  right:-240px;top:15%;box-shadow:0 0 100px #fff00008, inset 0 0 80px #fff00005;
+}
+.hero-grid{
+  position:absolute;inset:0;opacity:.11;
+  background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);
+  background-size:80px 80px;
+  mask-image:linear-gradient(to bottom,black,transparent 85%);
+}
+.hero-content{position:relative;z-index:2;padding:130px 0 90px}
+.kicker{font-size:11px;letter-spacing:5px;text-transform:uppercase;opacity:.5;margin-bottom:25px}
+h1{
+  font-family:"Space Grotesk",sans-serif;font-size:clamp(64px,12vw,150px);
+  line-height:.82;letter-spacing:-7px;font-weight:700;
+}
+.hero-title{position:relative;display:inline-block}
+.hero-title:after{
+  content:"";display:block;width:110px;height:3px;background:#fff;margin-top:30px;
+}
+.hero-sub{max-width:600px;margin-top:34px;font-size:17px;color:#aaa}
+.cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:35px}
+.btn{
+  display:inline-flex;padding:13px 19px;border:1px solid #ffffff35;
+  font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;
+  transition:.2s;
+}
+.btn:hover{background:#fff;color:#000}
+.btn.primary{background:#fff;color:#000}
+.btn.primary:hover{background:#ddd}
+section{padding:110px 0;border-top:1px solid #ffffff12}
+.section-label{font-size:10px;letter-spacing:4px;text-transform:uppercase;opacity:.45;margin-bottom:28px}
+.two{display:grid;grid-template-columns:.75fr 1.25fr;gap:90px}
+h2{font-family:"Space Grotesk";font-size:clamp(38px,6vw,70px);line-height:.95;letter-spacing:-3px}
+.copy{color:#aaa;font-size:16px;max-width:650px}
+.copy p+p{margin-top:22px}
+.quote{
+  margin-top:45px;border-left:2px solid #fff;padding-left:22px;
+  font-family:"Space Grotesk";font-size:22px;line-height:1.3;color:#eee;
+}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#ffffff16}
+.card{background:#080808;padding:35px;min-height:210px}
+.card-num{font-size:10px;letter-spacing:3px;opacity:.4}
+.card h3{font-size:22px;margin:30px 0 12px}
+.card p{font-size:13px;color:#888}
+.release-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.release{
+  min-height:320px;padding:32px;display:flex;flex-direction:column;justify-content:flex-end;
+  border:1px solid #ffffff16;position:relative;overflow:hidden;background:
+  radial-gradient(circle at 75% 25%,#ffffff12,transparent 35%),#090909;
+}
+.release:before{
+  content:"";position:absolute;width:220px;height:220px;border-radius:50%;
+  border:1px solid #ffffff25;right:-70px;top:-60px;
+}
+.release small{font-size:10px;letter-spacing:3px;opacity:.45;text-transform:uppercase}
+.release h3{font-size:42px;letter-spacing:-2px;margin:10px 0}
+.release p{color:#888;max-width:430px;font-size:13px}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:22px}
+.tag{border:1px solid #ffffff20;padding:7px 10px;font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:#aaa}
+.contact{
+  min-height:70vh;display:flex;align-items:center;justify-content:space-between;gap:60px
+}
+.contact h2{max-width:650px}
+.contact-side{min-width:260px}
+.contact-side p{font-size:12px;color:#777;margin-bottom:20px}
+footer{padding:30px 0;border-top:1px solid #ffffff12;color:#555;font-size:10px;letter-spacing:2px;text-transform:uppercase;display:flex;justify-content:space-between}
+@media(max-width:760px){
+  nav{padding:20px}.navlinks{display:none}
+  .hero-content{padding-top:150px}
+  h1{letter-spacing:-4px}
+  .two,.release-grid{grid-template-columns:1fr;gap:35px}
+  .cards{grid-template-columns:1fr}
+  .contact{display:block;padding-top:90px;padding-bottom:90px}
+  .contact-side{margin-top:45px}
+  section{padding:80px 0}
+  footer{display:block}.footer-right{margin-top:10px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="#top">PRE$II MXR <span>PRESS</span></a>
+  <div class="navlinks">
+    <a href="#about">About</a>
+    <a href="#sound">Sound</a>
+    <a href="#releases">Releases</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-grid"></div>
+  <div class="wrap hero-content">
+    <div class="kicker">Official Artist Press Kit / 2026</div>
+    <div class="hero-title"><h1>PRE$II<br>MXR</h1></div>
+    <p class="hero-sub">Independent artist. Producer. Creative. A symbol-driven world built from experimental trap, dark atmosphere, psychedelic textures and cinematic energy.</p>
+    <div class="cta-row">
+      <a class="btn primary" href="#releases">Explore Releases</a>
+      <a class="btn" href="#contact">Media / Booking</a>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap two">
+    <div>
+      <div class="section-label">01 / Artist</div>
+      <h2>THE FACE<br>ISN'T THE<br>BRAND.</h2>
+    </div>
+    <div class="copy">
+      <p><strong>Pre$iiMxr</strong> is an independent artist and creative building a distinct identity around atmospheric sound, experimental trap, dark aesthetics and an intentionally mysterious visual presence.</p>
+      <p>Rather than relying on a traditional artist image, Pre$iiMxr puts the music, symbolism and world-building first. Distorted textures, psychedelic atmospheres, heavy low-end, cinematic darkness and emotionally charged production combine into a sound designed to feel futuristic and raw.</p>
+      <p>The project is built to exist beyond a single release. Every song, visual, cover and piece of content contributes to a larger universe.</p>
+      <div class="quote">“Make the symbol recognizable. Make the sound recognizable. Make the name unforgettable.”</div>
+    </div>
+  </div>
+</section>
+
+<section id="sound">
+  <div class="wrap">
+    <div class="section-label">02 / Sound & Identity</div>
+    <div class="cards">
+      <div class="card"><div class="card-num">01</div><h3>Experimental</h3><p>Unpredictable textures, layered production and genre-bending ideas designed to keep the sound moving.</p></div>
+      <div class="card"><div class="card-num">02</div><h3>Atmospheric</h3><p>Space, darkness and melody create an immersive environment around the music.</p></div>
+      <div class="card"><div class="card-num">03</div><h3>Symbolic</h3><p>A recognizable visual language built around mystery, recurring imagery and the Pre$iiMxr symbol.</p></div>
+    </div>
+    <div class="tags">
+      <span class="tag">Experimental Trap</span><span class="tag">Dark Trap</span><span class="tag">Alternative Hip-Hop</span>
+      <span class="tag">Psychedelic</span><span class="tag">Cinematic</span><span class="tag">Spacey</span>
+    </div>
+  </div>
+</section>
+
+<section id="releases">
+  <div class="wrap">
+    <div class="section-label">03 / Selected Releases</div>
+    <div class="release-grid">
+      <article class="release">
+        <small>Single / Pre$iiMxr</small>
+        <h3>ANTIMATTER</h3>
+        <p>A dark, atmospheric release built around psychedelic textures, heavy trap energy and a futuristic aesthetic.</p>
+        <div class="tags"><span class="tag">Listen</span><span class="tag">2026</span></div>
+      </article>
+      <article class="release">
+        <small>Project / Pre$iiMxr</small>
+        <h3>CHAPTER II</h3>
+        <p>An experimental continuation of the Pre$iiMxr universe exploring darker, spacey, psychedelic and atmospheric territory.</p>
+        <div class="tags"><span class="tag">Listen</span><span class="tag">2026</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap two">
+    <div>
+      <div class="section-label">04 / Media Description</div>
+      <h2>BUILT AS<br>A WORLD.</h2>
+    </div>
+    <div class="copy">
+      <p>Pre$iiMxr is an independent artist and creative developing a mysterious, symbol-driven identity through experimental trap, atmospheric production, psychedelic visuals and cinematic world-building.</p>
+      <p>By keeping the artist behind the project intentionally understated, Pre$iiMxr places the focus on the music and the universe surrounding it.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap contact">
+    <div>
+      <div class="section-label">05 / Contact</div>
+      <h2>MEDIA.<br>COLLABS.<br>BOOKINGS.</h2>
+    </div>
+    <div class="contact-side">
+      <p>For interviews, features, visual collaborations, performances and creative partnerships.</p>
+      <!-- Replace the email below with the real business email -->
+      <a class="btn primary" href="mailto:YOUR_EMAIL_HERE">Get In Touch</a>
+      <div class="tags" style="margin-top:28px">
+        <a class="tag" href="#">Instagram</a>
+        <a class="tag" href="#">TikTok</a>
+        <a class="tag" href="#">YouTube</a>
+        <a class="tag" href="#">SoundCloud</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div>© 2026 PRE$II MXR</div>
+  <div class="footer-right">Independent Artist / Official Press Kit</div>
+</footer>
+
+</body>
+</html>
